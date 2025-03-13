@@ -1,0 +1,13 @@
+Topics include:
+
+1. Lists                                    11. JSON
+2. Tuples                                   12. Random Numbers
+3. Dictionary                               13. Decoraters
+4. Sets                                     14. Generators
+5. Strings                                  15. Threading vs Multiprocessing
+6. Collections                              16. Multithreading
+7. Itertools                                17. Multiprocessing
+8. Lambda Functions                         18. Function Arguments
+9. Exceptions and Errors                    19. Shallow vs Deep Copying
+10. Logging                                 20. The Asterisk(*) Operator        
+                    21. Context Managers

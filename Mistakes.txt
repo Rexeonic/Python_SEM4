@@ -1,0 +1,4 @@
+1.  .format can be used in the single instruction (i.e string initialization itself)
+2.  Don't make different variables for the same data
+3.  Give variables relevant name.
+4.  Can do pre and post multiply of strings for repetition.

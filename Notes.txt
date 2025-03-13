@@ -1,0 +1,20 @@
+1. Write the exercises using the text editor
+2. Run the exercises you wrote
+3. Fix them when they are broken
+4. Repeat
+
+****************************************************************************************************************************
+
+Read the CODE BACKWARDS.        (Trick)
+Break your CODE i.e find most clever way to break your CODE          (Trick)
+
+----------------------------------------------------------------------------------------------------------------------------
+
+An "octothorpe" (#)  is also called "pound" "hash" "mesh".
+A caret (^)  symbolizes where error occurred.
+
+format string -> inserts variable data into string.    
+        e.g.
+            f"some string will be {variable}"
+
+########    .format() syntax        (trick -> apply a format to an already created string i.e loop etc)            
