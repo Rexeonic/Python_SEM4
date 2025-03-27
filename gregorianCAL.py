@@ -17,7 +17,7 @@
 # Acc. to Gregorian Calendar, it was Monday on the date 01/01/01. If any year is input through the keyboard
 # Write a program to find out what is the day on 1st January of this year
 
-
+# Currently works for future years
 # Input the year
 year = int(input("Enter the year excluding century:"))                            #input["Enter the year:"]
 

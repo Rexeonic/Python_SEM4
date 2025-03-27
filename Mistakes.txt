@@ -2,3 +2,12 @@
 2.  Don't make different variables for the same data
 3.  Give variables relevant name.
 4.  Can do pre and post multiply of strings for repetition.
+5.  if print is assigned to a variable, print will get printed (don't assign for no reason i.e unnecessary)
+6.  """ and ''' can be used altenately (perform same function)
+7.  argv is a list (of input strings)
+8.  argv is also used to take input. But read the definition (not exactly an input)
+9.  Remember that modules gives you features. modules!! modules!! modules!! modules!!
+10. Working with files is an easy way to erase your work if you are not careful.
+11. Input can take only 1 argument (string inside brakcets).
+12. Write takes only 1 argument    (doesn't need to use Truncate)
+13.

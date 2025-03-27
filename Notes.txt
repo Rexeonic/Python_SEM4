@@ -18,3 +18,82 @@ format string -> inserts variable data into string.
             f"some string will be {variable}"
 
 ########    .format() syntax        (trick -> apply a format to an already created string i.e loop etc)            
+
+            While Using .format()
+                    If insider parameter is string then should be inside ""
+                    else boolean, int , float and any variable (of perceived types) can be written directly
+
+--------------------------------------------------------------------------------------------------------------------
+OBJECT ANALOGY
+
+        let object be a CAR then it has parameters and methods
+
+        parameters ->   car_color, car_fuel_type, car_efficiency
+        methods    ->   isRunning(), fuelcar(), isStopped(), gettingRepaired()
+
+        let object be a BiCycle then it may have parameters and methods like
+        
+        parameters ->   cycle_color, cycle_frame_metal, Brakes_Type
+        methods    ->   isRunning(), goLeft(), goRight(), applyBrake()
+--------------------------------------------------------------------------------------------------------------------
+ESCAPE SEQUENCES
+
+\\              \               ( writing just \ will demand character afterwoards so \\ for single \ )
+\'              '
+\"              "
+\a              ASCII bell (BEL)
+
+--------------------------------------------------------------------------------------------------------------------
+
+end = ' ' at the end of each print line. 
+This tells print to not end the line with a newline character and go to the next line.
+
+
+
+In Exercise 13
+Import -->      To add modules (features) to your script from Python module (feature) set.      # programmmers says library
+                e.g  sys, math
+
+argv   -->      argv (argument variable) holds the arguments you pass to your Python script during execution.
+                (It packs the data and then unpacks & assign it in ex13.py)
+
+--------------------------------------------------------------------------------------------------------------------
+OPEN()
+        When someone opens a file, it returns the FILE and COMMANDS that can be given.
+        can open a file and store that into a variable
+        e.g     file = open(filename)
+                print(file.read())      # read() is command i.e file do read command with no parameters
+
+CLOSE()
+        closes the file. Like File -> Save ... in you editor
+
+readline()
+        Reads just 1 line of the text
+
+truncate()
+        Empties the file. Watch out if you care about the file.
+
+write('stuff')
+        Writes 'stuff' to the file
+
+seek(offset, whence)
+        Moves the read/write location to a specific location within the file.
+        OFFSET -> Number of bytes to move the pointer
+        WHENCE -> An optional argument specifying the starting point for the offset.
+                0 (default): Start of the file
+                1: Current position of the pointer
+                2: End of the file
+        
+        e.g.
+                # Move the pointer to the 10th byte from the beginning
+                file_object.seek(10, 0)
+
+-------------------------------------------------------------------------------------------
+
+ def function():
+        """This is documentation comments. Prints when help(function) is written"""
+        statement 1
+        statement 2
+        statement 3
+
+function definition
