@@ -42,7 +42,9 @@ ESCAPE SEQUENCES
 \'              '
 \"              "
 \a              ASCII bell (BEL)
-
+\N{name}
+                e.g.    >>>    "\N{GREEK CAPITAL LETTER DELTA}t"
+                        Δt
 --------------------------------------------------------------------------------------------------------------------
 
 end = ' ' at the end of each print line. 
@@ -97,3 +99,8 @@ seek(offset, whence)
         statement 3
 
 function definition
+
+-------------------------------------------------------------------------------------------
+LIST ->        (refer library reference manual 4.7.4)
+        List are mutable sequences, typically used to store collections of HOMOGENOUS items
+        (where the precise degree of similarity will vary by application)
